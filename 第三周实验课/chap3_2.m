@@ -2,7 +2,7 @@
 clear all;
 close all;
 
-M=6;
+M=1;
 if M==1          %Guassian membership function
 	x=0:0.1:10;
 	y=gaussmf(x,[2 5]);
